@@ -1,4 +1,4 @@
-class mesa_aula:
+class Mesa_aula:
     def __init__(self, material, ancho, altura, color, largo, num_patas, peso, marca, estado, dureza):
         
         self.material = material
