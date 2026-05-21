@@ -1,0 +1,41 @@
+class Alumno:
+        def _init_(self, nombre, edad, matricula, carrera, semestre, promedio, turno, universidad, correo, estatus):
+                self.nombre = nombre
+                self.edad = edad
+                self.matricula = matricula
+                self.carrera = carrera
+                self.semestre = semestre
+                self.promedio = promedio
+                self.turno = turno
+                self.universidad = universidad
+                self.correo = correo
+                self.estatus = estatus
+
+                print(f"Nombre: {self.nombre}")
+                print(f"Edad: {self.edad}")
+                print(f"Matrícula: {self.matricula}")
+                print(f"Carrera: {self.carrera}")
+                print(f"Semestre: {self.semestre}")
+                print(f"Promedio: {self.promedio}")
+                print(f"Turno: {self.turno}")
+                print(f"Universidad: {self.universidad}")
+                print(f"Correo: {self.correo}")
+                print(f"Estatus: {self.estatus}")
+
+        def estudiar(self):
+            print("está estudiando para sus exámenes")
+        def asistir(self):
+            print("asistir a todas sus clases")
+        def examen(self):
+            print("está respondiendo un examen")
+        def duda(self):
+            print("pregunto por un tema que no entendio al 100")
+        def participo(self):
+            print("participo en un tema ya que le llamo la tencion y entendio")
+alumno_universidad = Alumno("Luis", "19 años", "1725110525", "Sistemas", "3to", "8.7", "Matutino", "UNAM", "1725110525@utectulancingo.edu.mx", "Activo")
+
+alumno_universidad.estudiar()
+alumno_universidad.asistir()
+alumno_universidad.examen()
+alumno_universidad.duda()
+alumno_universidad.participo()
