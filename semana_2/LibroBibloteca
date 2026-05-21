@@ -1,0 +1,41 @@
+class LibroBibloteca:
+    def __init__(self, num_folio, num_paginas, nombre, autor, titulo, editorial, condicion_libro, isbn, formato, idioma):
+        self.num_folio = num_folio
+        self.num_paginas = num_paginas
+        self.nombre = nombre
+        self.autor = autor
+        self.titulo = titulo
+        self.editorial = editorial
+        self.condicion_libro = condicion_libro
+        self.isbn = isbn
+        self.formato = formato
+        self.idioma = idioma
+        print(f"Numero de folio:{self.num_folio}")
+        print(f"Numero de paginas:{self.num_paginas}")
+        print(f"Nombre:{self.nombre}")
+        print(f"autor:{self.autor}")
+        print(f"titulo:{self.titulo}")
+        print(f"Editorial:{self.editorial}")
+        print(f"Condicion del libro:{self.condicion_libro}")
+        print(f"ISBN:{self.isbn}")
+        print(f"Formato:{self.formato}")
+        print(f"Idioma:{self.idioma}")
+    def clasificacion(self):
+        print("clasificar el libro")
+    
+    def catalogarlo(self):
+        print("catalogar libro")
+
+    def prestar(self):
+        print("prestar libro")
+
+    def leer(self):
+        print("leer libro")
+
+LibroBibloteca = ("01", "345", "padres padrisimos", "armando arboles", "padres", "Ala Delta Colib", "bueno", "978-6077460404", "apa", "espanol")
+LibroBibloteca.clasificacion
+LibroBibloteca.catalogarlo
+LibroBibloteca.prestar()
+LibroBibloteca.leer()
+LibroBibloteca.comprar()
+

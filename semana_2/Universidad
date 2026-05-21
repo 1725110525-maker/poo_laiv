@@ -1,5 +1,5 @@
 class universidad:
-    def __unit__(self, logo, oferta_educativa, localidad, sistema_informativo, modalidad, servicios, ubicacion, talleres, cantidad_salones, rector):
+    def __init__(self, logo, oferta_educativa, localidad, sistema_informativo, modalidad, servicios, ubicacion, talleres, cantidad_salones, rector):
         self.logo = logo
         self.oferta_educativa = oferta_educativa
         self.localidad = localidad
