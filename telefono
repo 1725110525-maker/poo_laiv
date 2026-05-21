@@ -1,0 +1,46 @@
+class Smarfone:
+    def __ini__(self, marca, procesador, anio_lanzamiento, almacenamiento, color, modelo, pulgadas, estado, camara, pila):
+            self.marca = marca
+            self.procesador = procesador
+            self.anio_lazamiento = anio_lanzamiento
+            self.almacenamiento = almacenamiento
+            self.color = color
+            self.moelo = modelo
+            self.pulgadas = pulgadas
+            self.estado = estado
+            self.camara = camara
+            self.pila = pila
+            print(f"marca: {self.marca}")
+            print(f"procesador: {self.procesador}")
+            print(f"anio_lanzamiento: {self.anio_lanzamiento}")
+            print(f"almacenamiento: {self.almacenamiento}")
+            print(f"color: {self.energia}")
+            print(f"modelo: {self.modelo}")
+            print(f"pulgadas: {self.pulgadas}")
+            print(f"estado: {self.estado}")
+            print(f"camara: {self.camara}")
+            print(f"pila: {self.pila}")
+
+    def cargar(self):
+        print("tu pila se agoto necesitas cargarlo")
+
+    def jugar(self):
+        print("tu celular tiene la pila suficiste para jugar")
+
+    def comprar(self):
+        print("comprar un telefono")
+
+    def perdio(self):
+        print("por distraido perdiste tu telefono")
+
+    def vender(self):
+        print("necesitas dinero y tienes que vender tu telefono")
+
+smarfone = ("realme", "7300", "2025", "256", "titanio", "15 5g", "6.77 pulgadas", "bueno", "50 mpxl", "bueno")
+smarfone.cargar()
+smarfone.jugar()
+smarfone.comprar()
+smarfone.perdio()
+smarfone.vender()
+
+

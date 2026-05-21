@@ -1,0 +1,42 @@
+class PersonajeVideojuego:
+        def _init_(self, nombre, rol, nivel, salud, energia, arma, armadura, faccion, velocidad, enemigos):
+                self.nombre = nombre
+                self.rol = rol
+                self.nivel = nivel
+                self.salud = salud
+                self.energia = energia
+                self.arma = arma
+                self.armadura = armadura
+                self.faccion = faccion
+                self.velocidad = velocidad
+                self.enemigos = enemigos
+                print(f"Nombre: {self.nombre}")
+                print(f"Rol/Clase: {self.rol}")
+                print(f"Nivel: {self.nivel}")
+                print(f"Salud (HP): {self.salud}")
+                print(f"Energía (MP): {self.energia}")
+                print(f"Arma equipada: {self.arma}")
+                print(f"Armadura: {self.armadura}")
+                print(f"Facción: {self.faccion}")
+                print(f"Velocidad: {self.velocidad}")
+                print(f"enemigos: {self.enemigos}")
+        def  mata(self):
+                print("mat al enemigo usando combo")
+        def defender(self):
+                print("se defiende con su poder")
+
+        def curar(self):
+                print("consumio una poción y recuperado su vida")
+
+        def escapo(self):
+                print("escapo por que no tenia suficiente poder")
+
+        def nivel(self):
+                print("ha ganado experiencia es por ello que subio de nivel")
+heroe = PersonajeVideojuego("rafael", "personaje epico", 15, "200 HP", "100 MP", "puños", "sin armadura", "reyno", "Alta", "niunguno")
+
+heroe.mata()
+heroe.defender()
+heroe.curar()
+heroe.escapo()
+heroe.nivel()

@@ -1,0 +1,40 @@
+class universidad:
+    def __unit__(self, logo, oferta_educativa, localidad, sistema_informativo, modalidad, servicios, ubicacion, talleres, cantidad_salones, rector):
+        self.logo = logo
+        self.oferta_educativa = oferta_educativa
+        self.localidad = localidad
+        self.sistema_informativo = sistema_informativo
+        self.modalidad = modalidad
+        self.servicios = servicios
+        self.ubicacion = ubicacion
+        self.talleres = talleres
+        self.cantidad_salones = cantidad_salones
+        self.rector = rector
+        print(f"logotipo de la universidad :{self.logo}")
+        print(f"oferta educativa :{self.oferta_educativa}")
+        print(f"localidad de la universidad :{self.localidad}")
+        print(f"sistema informativo de la universidad :{self.sistema_informativo}")
+        print(f"modalidad de la universidad :{self.modalidad}")
+        print(f"servicios de la universidad :{self.servicios}")
+        print(f"ubicacion de la universidad :{self.ubicacion}")
+        print(f"talleres de la universidad :{self.talleres}")
+        print(f"cantidad de salones que tiene la universidad :{self.cantidad_salones}")
+        print(f"rector de la universidad :{self.rector}")
+    def _init_(self):
+        pass
+    def estudiar(self):
+        print("estudiar la universidad")
+    def tareas(self):
+        print("realizar tarea de la universidad")
+    def libro(self):
+        print("pedirpresytado un libro de la biblotec de la universidad")
+    def participar(self):
+        print("participar en cada clase")
+    def examenes(self):
+        print("prepararme pra realizar los examenes")
+universidad_unam = universidad("imagen jpg", "buenas carreras", "mexico", "SIAE", "abierta", "buenos", "Alcaldía Coyoacán, C.P. 04510", "Salsa · Cartonería · Fotografía creativa y de producto", "4887", "Dr. Leonardo Lomelí Vanegas" )
+universidad.estudiar()
+universidad.tareas()
+universidad.libro()
+universidad.participar()
+universidad.examenes()

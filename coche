@@ -1,0 +1,45 @@
+class Coche:
+    def __init__(self, marca, matricula, color, anio_lanzamiento, numero_serie, cilindros, num_llantas, num_puertas, modelo, tipo):
+        self.marca = marca
+        self.matricula = matricula
+        self.color = color
+        self.anio_lanzamiento = anio_lanzamiento
+        self.numero_serie = numero_serie
+        self.cilindros = cilindros
+        self.num_llantas = num_llantas
+        self.num_puertas = num_puertas
+        self.modelo = modelo
+        self.tipo = tipo
+        print(f"Marca del auto:{self.marca}")
+        print(f"Matricula:{self.matricula}")
+        print(f"Color:{self.color}")
+        print(f"año de lanzamiento:{self.anio_lanzamiento}")
+        print(f"Numero de serie:{self.numero_serie}")
+        print(f"cilindros:{self.cilindros}")
+        print(f"numero de llantas:{self.num_llantas}")
+        print(f"numero de puertas:{self.num_puertas}")
+        print(f"modelo del coche:{self.modelo}")
+        print(f"tipo:{self.tipo}")
+    
+    def manejar(self):
+        print("manejar el coche")
+
+    def chocar(self):
+        print("por exceso de velocidad cochaste")
+
+    def comprar(self):
+        print("comprar un coche")
+
+    def vender(self):
+        print("vendiste tu auto para comprar algo mejor")
+
+    def pedir(self):
+        print("tu auto no funciona tenies que pedir ayuada")
+coche = ("chevrolet", "123BNB", "blanco", "2006", "142", "8", "4", "2", "silverado", "carga")
+coche.manejar()
+coche.chocar()
+coche.comprar()
+coche.vender()
+coche.pedir()
+    
+        

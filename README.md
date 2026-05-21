@@ -26,3 +26,6 @@ sincroniza los cambios realizados en el repositorio
 git push -u origin main
 ````
 
+#5.Agregar Documentacion alos metodos
+agregar un **Docstring** alos metodos generados.
+# metodo dos sirve para recibir valortes enteros, suma y devuelve el resultado de la suma realizada 
